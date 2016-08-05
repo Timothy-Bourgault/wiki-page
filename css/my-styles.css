@@ -11,7 +11,7 @@
 }
 .wikitop{
 	height: 90px;
-	background: white;
+	background: #f6f6f6;
 }
 .col1, .col2, .col3, .col4, .wikitop{
 	border: 1px solid #d4ccdf;
@@ -24,6 +24,7 @@ h2{
 }
 .col1 h2{
 	background: #cef2e0;
+
 }
 .col2{
 	background: #f5faff;
@@ -38,8 +39,28 @@ h2{
 	background: #f2cedd;
 }
 .col4{
-	background: yellow;
+	background: #e9e4f0;
 }
 .col4 h2 {
 	background: #ddcef2;
+}
+.col3, .col 4{
+	display: block;
+}
+row1{
+	display: block;
+}
+img{
+	max-height: 200px;
+}
+[div^=col] p{
+	padding: 10px;
+}
+.row2{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: -400px;
+}
+.topper{
+	background: transparent;
 }
